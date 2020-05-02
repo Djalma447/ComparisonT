@@ -23,7 +23,7 @@ namespace Course.Entities
 
         public int CompareTo(Product other)
         {
-            return Name.ToUpper().CompareTo(other.Name.ToUpper()); // Comparando os Produtos pelo nome independente de letras maiúsculas e minúsculas
+            return Price.CompareTo(other.Price); // Comparando os Produtos pelo Preço
         }
     }
 }
